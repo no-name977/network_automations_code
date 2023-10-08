@@ -9,7 +9,7 @@
 #konfigurasi pra instalasi flask didebain server
 1. su -
 2. pip3 install virtualenv
-3. mkdri network-automations-tools (membuat directory project untuk menyimpan file file)
+3. mkdir network-automations-tools (membuat directory project untuk menyimpan file file)
 4. cd network-automation-tools
 5. virtualenv env (membuat lingkungan directory)
 6. source env/bin/activate (untuk mengaktifkan directory)
