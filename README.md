@@ -1,10 +1,10 @@
 #install packages pip
-apt update 
-apt install python3-pip
-pip --version #untuk melihat versi pip
-pip3 install --upgrade pip
-pip3 install paramiko #untuk menginstall paramiko
-pip3 freeze (untuk mengecek apakah paramiko berhasil didownload)
+1. apt update 
+2. apt install python3-pip
+3. pip --version #untuk melihat versi pip
+4. pip3 install --upgrade pip
+5. pip3 install paramiko #untuk menginstall paramiko
+6. pip3 freeze (untuk mengecek apakah paramiko berhasil didownload)
 
 #konfigurasi pra instalasi flask didebain server
 su -
