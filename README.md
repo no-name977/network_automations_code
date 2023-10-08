@@ -7,21 +7,22 @@
 6. pip3 freeze (untuk mengecek apakah paramiko berhasil didownload)
 
 #konfigurasi pra instalasi flask didebain server
-su -
-pip3 install virtualenv
-mkdri network-automations-tools (membuat directory project untuk menyimpan file file)
-cd network-automation-tools
-virtualenv env (membuat lingkungan directory)
-source env/bin/activate (untuk mengaktifkan directory)
+1. su -
+2. pip3 install virtualenv
+3. mkdri network-automations-tools (membuat directory project untuk menyimpan file file)
+4. cd network-automation-tools
+5. virtualenv env (membuat lingkungan directory)
+6. source env/bin/activate (untuk mengaktifkan directory)
+   
 #instalasi flask didebian server
-pip3 install flask
-	#struktur directory network-automation-tools
+1. pip3 install flask
+	#struktur directory network-automation-tools 
 		-project
 			app.py
 		-templates
 			index.html
 			output.html
-      dll...
+      			dll...
 
 if __name__ == '__main__':
     app.run(host="10.10.10.4", port=8000, debug=True)
@@ -29,5 +30,5 @@ if __name__ == '__main__':
     note : sesuaikan ip host dan port nya
 
 
-jalan nya flask nya 
-python3 app.py
+#jalan nya flask nya 
+1. python3 app.py
