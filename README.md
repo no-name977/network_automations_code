@@ -17,18 +17,16 @@
 #instalasi flask didebian server
 1. pip3 install flask
 	#struktur directory network-automation-tools 
-		-project
-			app.py
-		-templates
-			index.html
-			output.html
-      			dll...
+		1. -project
+			2. app.py
+                1. -templates
+			2. index.html
+			3. output.html
+      			4. dll...
 
 if __name__ == '__main__':
-    app.run(host="10.10.10.4", port=8000, debug=True)
-
-    note : sesuaikan ip host dan port nya
-
+    app.run(host="10.10.10.4", port=8000, debug=True) 
+    note "sesuaikan ip host nya dan port nya"
 
 #jalan nya flask nya 
 1. python3 app.py
