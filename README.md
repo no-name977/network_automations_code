@@ -1,9 +1,9 @@
 Menu tools
-Active Connection : remote ONT 
-Management PPPOE : create, enable secret dan disable secret
-Terminal : CLI mikroitk
-script aktivasi : zte dan fiberhome
-ssh olt : eksperimental
+1. Active Connection : remote ONT 
+2. Management PPPOE : create, enable secret dan disable secret
+3. Terminal : CLI mikroitk
+4. script aktivasi : zte dan fiberhome
+5. ssh olt : eksperimental
 
 
 
