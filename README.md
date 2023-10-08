@@ -1,3 +1,12 @@
+Menu tools
+Active Connection : remote ONT 
+Management PPPOE : create, enable secret dan disable secret
+Terminal : CLI mikroitk
+script aktivasi : zte dan fiberhome
+ssh olt : eksperimental
+
+
+
 #install packages pip
 1. apt update 
 2. apt install python3-pip
